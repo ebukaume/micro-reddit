@@ -1,24 +1,48 @@
-# README
+# Building with Active Record
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
-Things you may want to cover:
+In this mini-project, I implemented basic model for users, posts and comments as well as their associations and validations. All model interactions are done via rails console.
 
-* Ruby version
+## Technologies
 
-* System dependencies
+- Ruby 2.6.3
+- Rails 5.2.3
 
-* Configuration
+## Usage
 
-* Database creation
+> Clone the repository to your local machine
 
-* Database initialization
+```sh
+$ git clone https://github.com/ebukaume/micro-reddit.git
+```
 
-* How to run the test suite
+> cd into the directory
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+$ cd micro-reddit
+$ bundle install
+$ rails db:migrate
+```
 
-* Deployment instructions
+> You can then drop into rails console to explore the models
 
-* ...
+```sh
+$ cd rails c
+```
+
+## Contributors
+
+This is a solo project by me: [Ebuka Umeokonkwo](https://github.com/ebukaume)
+
+## Contributing
+
+1. Fork it (https://github.com/ebukume/micro-reddit/fork)
+2. Create your feature branch (git checkout -b feature/[choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[chosen-name])
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
